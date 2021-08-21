@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    width: device_width;
+    height: 600px;
+    background-color: cornflowerblue;
+    
+}
+.menu{
+    display: flex;
+    /* border: 3px dashed yellow; */
+    background-color: cornflowerblue;
+    width: device_width/2;
+}
+.menu-starting{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: cornflowerblue;
+    
+
+}
+.menutools-message,
+.menutools-account,
+.menutools-setting,
+.menutools-favorite
+:hover{
+    /* background-color: white; */
+    /* border-bottom: black; */
+    background-color: cornflowerblue;
+    width: device_width/12;
+}
+.menutools-message,
+
+.menutools-account,
+.menutools-setting,
+.menutools-favorite{
+
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: center;
+    align-content: center;
+}
+
+.menu-ending{
+    display: flex;
+    border: solid red;
+    justify-content: flex-end;
+}
+    /* .img-end{
+        display: flex;
+        border-radius: 10px;
+    } */
